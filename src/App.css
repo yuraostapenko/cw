@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 .App-logo {
@@ -29,4 +34,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.back_to_top {
+  
+  display: none;
+}
+
+.back_to_top:hover {
+  background: #e9ebec;
+}
+
+.back_to_top-show {
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+  z-index: 9999;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #f5f5f5;
+  opacity: 0.7;
+  color: #173e43;
+  cursor: pointer;
+  border-radius: 2px;
+  display: block;
 }

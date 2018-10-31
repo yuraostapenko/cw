@@ -1,0 +1,401 @@
+.main {
+    padding: 5px;
+background-color: #3fb0ac;
+}
+
+.contacts {
+    margin: 2.5em 0.5em; 
+    outline: solid 5px #fae596;
+    transition: outline 0.6s linear;
+    padding: 5px;
+    box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.76);
+}
+
+
+.contacts:hover { outline-width: 10px; }
+
+.contactsTitle {
+    margin-left: 10px;
+    color: #173e43;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 4px 2px 4px #dddfd4;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.fas {
+    color: #173e43;
+    display: inline-block;
+}
+
+.fab {
+    color: #173e43;
+    display: inline-block;
+}
+
+.contactMain {
+    text-align: left;
+}
+
+.contactListMain {
+    color: #173e43;
+    font-weight: 500;
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px;
+    
+}
+
+.projects {
+    margin: 2.5em 0.5em; 
+    outline: solid 5px #fae596;
+    transition: outline 0.6s linear;
+    padding: 5px;
+    box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.76);
+}
+
+.projects:hover { outline-width: 10px; }
+
+.linkContact {
+    text-decoration: none;
+    color: #173e43;
+    font-weight: 500;
+    padding-left: 3px;
+}
+
+.projectsTitle {
+    margin-left: 10px;
+    color: #173e43;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 4px 2px 4px #dddfd4;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.projectList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.proj {
+    height: 100px;
+    width: 150px;
+    background-color: #fae596;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.proj:hover {
+    background-color: #dddfd4;
+}
+
+.proj:nth-last-child(-1n+1) {
+    margin-right: 0;
+}
+
+.projectListText {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Comfortaa', cursive;
+    color: #173e43;
+
+}
+
+.technicalSkills {
+    margin: 2.5em 0.5em; 
+    outline: solid 5px #fae596;
+    transition: outline 0.6s linear;
+    padding: 5px;
+    box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.76);
+}
+
+.technicalSkills:hover { outline-width: 10px; }
+
+.technicalSkillsTitle {
+    margin-left: 10px;
+    color: #173e43;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;;
+    text-shadow: 4px 2px 4px #dddfd4;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.projectNames {
+    font-weight: 800;
+    color: #e62739;
+}
+
+.skillsMain {
+    text-align: left;
+}
+
+.technicalSkilllist {
+    text-decoration: none;
+    color: #173e43;
+    font-weight: 500;
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px;
+}
+
+.far {
+    color: #173e43;
+    display: inline-block;
+}
+
+.experians {
+    margin: 2.5em 0.5em; 
+    outline: solid 5px #fae596;
+    transition: outline 0.6s linear;
+    padding: 5px;
+    box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.76);
+}
+
+.experians:hover { outline-width: 10px; }
+
+.workTitle {
+    margin-left: 10px;
+    color: #173e43;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 4px 2px 4px #dddfd4;
+    display: inline-block; 
+    margin-bottom: 20px; 
+}
+
+.workMain {
+    text-align: left;
+}
+
+.workList {
+    text-decoration: none;
+    color: #173e43;
+    font-weight: 500;
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px;   
+    list-style: none; 
+}
+
+.education {
+    margin: 2.5em 0.5em; 
+    outline: solid 5px #fae596;
+    transition: outline 0.6s linear;
+    padding: 5px;
+    box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.76);
+}
+
+.education:hover { outline-width: 10px; }
+
+.educatioTitle {
+    margin-left: 10px;
+    color: #173e43;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 4px 2px 4px #dddfd4;
+    display: inline-block; 
+    margin-bottom: 20px; 
+}
+
+.educationMain {
+    text-align: left;
+}
+
+.educationList {
+    text-decoration: none;
+    color: #173e43;
+    font-weight: 500;
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px; 
+    list-style: none;
+}
+
+.softSkill {
+    margin: 2.5em 0.5em; 
+    outline: solid 5px #fae596;
+    transition: outline 0.6s linear;
+    padding: 5px;
+    box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.76);
+}
+
+.softSkill:hover { outline-width: 10px; }
+
+.educatioTitle {
+    margin-left: 10px;
+    color: #173e43;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 4px 2px 4px #dddfd4;
+    display: inline-block; 
+    margin-bottom: 20px; 
+}
+
+.softSkillMain {
+    text-align: left;
+}
+
+.softSkillList {
+    text-decoration: none;
+    color: #173e43;
+    font-weight: 500;
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px; 
+    list-style: none;
+}
+
+.additional {
+    margin: 1.5em 0.5em; 
+    outline: solid 5px #fae596;
+    transition: outline 0.6s linear;
+    padding: 5px;
+    box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.76);
+}
+
+.additional:hover { outline-width: 10px; }
+
+.additionalTitle {
+    margin-left: 10px;
+    color: #173e43;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 4px 2px 4px #dddfd4;
+    display: inline-block;  
+    margin-bottom: 20px;
+}
+
+.additionalMain {
+    text-align: left;
+}
+
+.additionalList {
+    text-decoration: none;
+    color: #173e43;
+    font-weight: 500;
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px; 
+    list-style: none;
+}
+
+.pdf {
+  text-decoration: none;
+    /* color: #173e43; */
+    font-weight: 500;
+    font-family: 'Comfortaa', cursive;
+    font-size: 10px; 
+    list-style: none;
+    margin-left: auto;
+}
+
+.linkContact {
+    color: #e62739;
+}
+
+
+
+@media (min-width: 768px) {
+   .main {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-around;
+   }
+   .contacts{
+       width: 45%;
+   }
+
+   .contactListMain{
+       font-size: 14px;
+   }
+
+   .projectListText{
+    font-size: 14px;
+}
+
+.technicalSkilllist{
+    font-size: 14px;
+}
+
+.workList{
+    font-size: 14px;
+}
+
+.educationList{
+    font-size: 14px;
+}
+
+.additionalList{
+    font-size: 14px;
+}
+
+.softSkillList{
+    font-size: 14px;
+}
+
+   .projects {
+       width: 45%;
+   }
+
+   .technicalSkills {
+    width: 45%;
+   }
+
+   .experians {
+    width: 45%;  
+   }
+
+   .education {
+    width: 45%;  
+   }
+
+   .softSkill{
+    width: 45%;    
+   }
+
+   .additional {
+    width: 45%;    
+   }
+    
+  }
+
+  @media (min-width: 1200px) {
+    .contacts{
+        width: 30%;
+    }
+ 
+    .projects {
+        width: 30%;
+    }
+ 
+    .technicalSkills {
+     width: 30%;
+    }
+ 
+    .experians {
+     width: 30%;  
+    }
+ 
+    .education {
+     width: 30%;  
+    }
+ 
+    .softSkill{
+     width: 30%;    
+    }
+ 
+    .additional {
+     width: 30%;    
+    }
+  }
+
+
+
